@@ -278,12 +278,13 @@
         <h3><span class="e">🔄</span>ChatGPT랑 뭐가 달라요?</h3>
         <p class="body">둘 다 "질문하면 답해주는 AI"라는 점은 같아요. 큰 그림만 보면 됩니다.</p>
         <table class="compare">
-          <thead><tr><th>항목</th><th>ChatGPT</th><th>Claude</th></tr></thead>
+          <thead><tr><th>항목</th><th>ChatGPT</th><th>Gemini(제미나이)</th><th>Claude</th></tr></thead>
           <tbody>
-            <tr><th>잘하는 것</th><td>이미지 생성 등 폭넓은 만능형</td><td><b>긴 문서 읽기·요약, 다듬어진 글쓰기, 표·문서 만들기</b></td></tr>
-            <tr><th>말투 느낌</th><td>활발하고 자유로움</td><td>차분하고 정중함 — 공문·가정통신문에 잘 맞아요</td></tr>
-            <tr><th>특징 기능</th><td>GPTs, 이미지 생성</td><td><b>아티팩트</b>(옆 화면 결과물), <b>프로젝트</b>, 스킬</td></tr>
-            <tr><th>파일 첨부</th><td>가능</td><td>가능 — PDF·한글 캡처·엑셀 등을 잘 읽어요</td></tr>
+            <tr><th>만든 곳</th><td>OpenAI</td><td>Google</td><td>Anthropic</td></tr>
+            <tr><th>잘하는 것</th><td>이미지 생성 등 폭넓은 만능형</td><td>구글 검색 기반 최신 정보, 구글 앱 연동</td><td><b>긴 문서 읽기·요약, 다듬어진 글쓰기, 표·문서 만들기</b></td></tr>
+            <tr><th>말투 느낌</th><td>활발하고 자유로움</td><td>깔끔하고 정보 위주</td><td>차분하고 정중함 — 공문·가정통신문에 잘 맞아요</td></tr>
+            <tr><th>특징 기능</th><td>GPTs, 이미지 생성</td><td>Gmail·문서·드라이브 연동, Gems</td><td><b>아티팩트</b>(옆 화면 결과물), <b>프로젝트</b>, 스킬</td></tr>
+            <tr><th>파일 첨부</th><td>가능</td><td>가능 — 구글 드라이브 연동이 강점</td><td>가능 — PDF·한글 캡처·엑셀 등을 잘 읽어요</td></tr>
           </tbody>
         </table>
         <div class="note info"><span class="ic">🔄</span><div><b>ChatGPT를 써봤다면</b><p>사용법은 거의 똑같아요. <strong>입력창에 질문 → 엔터.</strong> 새로 배울 건 모델 이름과 아티팩트·프로젝트 같은 Claude만의 단어 몇 개뿐이에요. 이 가이드가 그것만 콕 집어 알려줄게요.</p></div></div>
@@ -292,12 +293,12 @@
         <table class="compare">
           <thead><tr><th>요금제</th><th>가격(대략)</th><th>이런 분께</th></tr></thead>
           <tbody>
-            <tr><th>Free(무료)</th><td>0원</td><td>처음 맛보기. 하루 사용량 제한이 있고, 똑똑한 모델은 조금만 쓸 수 있어요</td></tr>
-            <tr><th>Pro</th><td>월 2만 원대</td><td>업무에 본격 활용하는 선생님. 사용량 넉넉, 프로젝트·아티팩트 넉넉히 사용</td></tr>
+            <tr><th>Free(무료)</th><td>0원</td><td>딱 맛보기용. <b>사용량이 빠듯해서 몇 번 주고받으면 곧 한도</b>에 걸리고, 똑똑한 모델은 거의 못 써요</td></tr>
+            <tr><th>Pro</th><td>월 2만 원대</td><td><b>업무에 제대로 쓰려면 사실상 Pro부터.</b> 사용량 넉넉, 프로젝트·아티팩트 마음껏</td></tr>
             <tr><th>Max</th><td>월 10만 원대~</td><td>하루 종일 아주 많이 쓰는 경우</td></tr>
           </tbody>
         </table>
-        <div class="note tip"><span class="ic">💡</span><div><b>꿀팁</b><p>우선 <strong>무료로 가입해서 며칠 써보고</strong>, "이거 매일 쓰겠다" 싶을 때 Pro로 올리세요. 무료로도 이 가이드 내용 대부분을 체험할 수 있어요.</p></div></div>
+        <div class="note tip"><span class="ic">💡</span><div><b>솔직한 조언</b><p>무료로 한두 번 맛보는 건 좋지만, <strong>한도가 금방 차서</strong>(몇 번 주고받으면 끝) 실제 업무엔 금세 부족해요. <strong>매일 업무에 쓸 거라면 Pro를 추천</strong>해요 — 사실상 Pro부터가 제대로 쓰는 시작이에요.</p></div></div>
       </section>
 
       <!-- S2 -->
@@ -351,9 +352,9 @@
         </div>
         <div class="code">
           <div class="code-top"><span class="label"><span class="dots"><i></i><i></i><i></i></span> 예시 프롬프트</span><button class="copy">복사</button></div>
-          <pre><code>초등학교 5학년 담임 교사예요. 체험학습 가정통신문을 써주세요.
-날짜는 5월 20일, 장소는 경복궁, 준비물은 도시락과 물, 회비는 1만 원이에요.
-학부모님께 보내는 정중한 안내문 톤으로, A4 반 장 분량으로 부탁해요.</code></pre>
+          <pre><code>초등학교 5학년 담임 교사야. 체험학습 가정통신문을 써줘.
+날짜는 5월 20일, 장소는 경복궁, 준비물은 도시락과 물, 회비는 1만 원이야.
+학부모님께 보내는 정중한 안내문 톤으로, A4 반 장 분량으로 부탁해.</code></pre>
         </div>
 
         <h3><span class="e">🧰</span>꼭 알아둘 기본 동작</h3>
